@@ -1,0 +1,132 @@
+.containerVmain {
+    font-family: Arial, sans-serif;
+    background-color: #f3eee7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.containerV {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+header {
+    padding: 20px 0;
+}
+nav {
+    font-size: 14px;
+    color: #aaa;
+}
+.hero {
+    position: relative;
+    margin: 20px 0;
+}
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+.vh1 {
+    
+    
+    
+    color: #7a6a58;
+    font-size: 3vw;
+    font-weight:bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.thumbnails img {
+    width: 32%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.contentV {
+    padding: 40px 0;
+    color: #7a6a58;
+}
+.contentV p {
+    font-size: 16px;
+    color: #666;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Style for the decorative line with icons */
+.decorative-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.decorative-line::before, 
+.decorative-line::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #7a6a58;
+}
+.decorative-text {
+    margin: 0 10px;
+    font-size: 30px;
+    color: #7a6a58;
+}
+.bottonV{
+    display: flex;
+}
+/* From Uiverse.io by alexmaracinaru */ 
+/* From Uiverse.io by CristianMontoya98 */ 
+.btn10 {
+    width: 11.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: wheat;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   .btn10:hover {
+    color: black;
+   }
+   
+   .btn10:after {
+    content: "";
+    background: #f3eee7;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   .btn10:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+  
+
+footer {
+    padding: 20px 0;
+    font-size: 12px;
+    color: #aaa;
+}

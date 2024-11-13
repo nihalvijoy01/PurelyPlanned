@@ -1,0 +1,110 @@
+header {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.landingbody {
+  width: 100vw;
+}
+
+.headmain {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.heading55 {
+  font-family: "Dancing Script", cursive;
+}
+
+.heroland {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/src/images/7_og.png");
+  height: 700px;
+  background-size: cover;
+}
+
+.contentheading {
+  font-size: 4rem;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contentpara {
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.images {
+  margin-top: 60px;
+  display: flex;
+  gap: 55px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.imagesone img {
+  width: 100%;
+  max-width: 400px;
+  height: 500px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+}
+.imagestwo img {
+  width: 100%;
+  max-width: 450px;
+  height: 600px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.6);
+}
+.imagesthree img {
+  width: 100%;
+  max-width: 400px;
+  height: 500px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+}
+.contentVland {
+  padding: 40px 0;
+  color: #7a6a58;
+}
+.contentVland p {
+  font-size: 16px;
+  color: #666;
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Style for the decorative line with icons */
+.decorative-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.decorative-line::before,
+.decorative-line::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #7a6a58;
+}
+.decorative-text {
+  margin: 0 10px;
+  font-size: 30px;
+  color: #7a6a58;
+}
+
+.divforservice {
+  margin-top: 60px;
+}
